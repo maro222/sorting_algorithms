@@ -31,12 +31,13 @@ int part(int array[], size_t size, int low, int high)
 		{
 			i++;
 			swap(&array[i], &array[j]);
-			print_array(array, size);
+			if (array[i] != array[j])
+				print_array(array, size);
 		}
 	}
-
 	swap(&array[i + 1], &array[high]);
-	print_array(array, size);
+	if (i + 1 != high)
+		print_array(array, size);
 	return (i + 1);
 }
 
