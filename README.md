@@ -2,7 +2,7 @@
 
 ### Description:
 
-This project implements four different sorting algorithms to sort a group of numbers (elements of an array 
+This project implements four different sorting algorithms to sort a group of numbers (elements of an array
 
 or a doubly linked list) in ascending order.
 
