@@ -1,7 +1,13 @@
 #include "sort.h"
 
-
-/* Function to swap two elements */
+/**
+ *swap - swap 2 elements
+ *
+ *@a: element a
+ *@b: element b
+ *
+ *Return: nothing
+ */
 void swap(int *a, int *b)
 {
 	int temp = *a;
@@ -44,7 +50,7 @@ int part(int array[], size_t size, int low, int high)
 
 /**
  * sort - function that implements quicksort
- * @array[]: Array to be sorted,
+ * @array: Array to be sorted,
  * @size: size of array
  * @low: Starting index,
  * @high: Ending index
