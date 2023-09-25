@@ -34,7 +34,7 @@ int part(int array[], size_t size, int low, int high)
 	for (j = low; j <= high - 1; j++)
 	{
 
-		if (array[j] < pivot)
+		if (array[j] <= pivot)
 		{
 			i++;
 			swap(&array[i], &array[j]);
